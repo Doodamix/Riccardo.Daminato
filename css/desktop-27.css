@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@300;500&display=swap');
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* screen - desktop-27 */
+
+ .desktop-27{
+  align-items: flex-start;
+  background-color: white;
+  display: absolute;
+  flex-direction: column;
+  height: 1024px;
+  padding: 50px 104px 20px;
+  width: 1440px;
+  padding-top: 30px;
+}
+/*movimento nav*/
+.flex-row {
+  align-items: right;
+  display: flex;
+
+  margin-top: -30px;
+  min-width: 1310px;
+}
+/*logo*/
+.rd-1 {
+ margin-left: 111px;
+ margin-top: 21px;
+ margin-bottom: 30px;
+ height: 73px;
+ left: 0;
+/*rd position*/
+ position: absolute;
+ top: 47px;
+ width: 73px;
+}
+
+.header{
+  width: 100%;
+  position:absolute;/*fisso in alto */
+}
+.menu{
+
+  text-align: right;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.menu li{display: inline-block;
+  font-family:'Gantari', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 100px;
+  }
+
+.menu li a{color: #000;padding:15px 25px;display: block;}
+
+  .menu a:hover { /* cambio di colore al passaggio del mouse */
+    color: #ffa500; }
+
+  .navigation{
+    float: right;
+    text-decoration: none;
+    color: black;
+    }
+    .projects {
+     left: 728px;
+     font-size: 16px;
+     letter-spacing: 0;
+     position: absolute;
+     top: 71px;
+     width: 106px;
+   }
+
+    .passion {
+     left: 972px;
+     font-size: 16px;
+     letter-spacing: 0;
+     position: absolute;
+     top: 71px;
+     width: 92px;
+   }
+
+   .about {
+     left: 1184px;
+     font-size: 16px;
+     letter-spacing: 0;
+     position: absolute;
+     top: 71px;
+     width: 73px;
+   }
+.projectss{
+  height: 130px;
+  margin-left: 01px;
+  margin-top: 250px;
+  width: 400px;
+}
+
+.surname-container {
+  height: 50px;
+  margin-left: 73px;
+  margin-top: 31px;
+  position: relative;
+  width: 297px;
+}
+
+.surname {
+  margin-left: : 0;
+  letter-spacing: 0;
+  position: flex;
+  top: 0;
+  width: 500px;
+}
+
+ .the-idea-for-our-pro {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-right: 51px;
+  margin-top: 18px;
+  min-height: 172px;
+  width: 1214px;
+}
+
+ .hi-1 {
+   align-self: center;
+   padding-top: 50px;
+   padding-bottom: 10px;
+   height: 600px;
+   width: 800px;
+   }
+/*primo testp green*/
+.surname-container {
+  margin-left: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ .-Gantari-40px {
+  font-family:'Gantari', sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: -60px;
+  padding-right: 60px;
+  padding-bottom: 70px;
+}
+.the-idea-for-our-pro-Gantari-20px{
+  font-family:'Gantari', sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding top: 100px;
+
+}
+/*seconfo testo Kalu*/
+.kalu-container {
+  margin-left: 13px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+ .-kalu-40px {
+  font-family:'Gantari', sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: -60px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+}
+.the-kalu-Gantari-20px{
+  font-family:'Gantari', sans-serif;
+  font-size: 20px;
+  padding-left: 13px;
+  padding-right: 10px;
+  padding top: 10px;
+
+}
+/*lampada immagine*/
+.lampa{
+align-self: center;
+padding-top: 50px;
+padding-bottom: 10px;
+height: 600px;
+width: 800px;
+
+}
+/*terzo testo profumo azzaro*/
+.azzaro-container {
+  margin-left: 13px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+ .-azzaro-40px {
+  font-family:'Gantari', sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: -60px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+}
+.the-azzaro-Gantari-20px{
+  font-family:'Gantari', sans-serif;
+  font-size: 20px;
+  padding-left: 13px;
+  padding-right: 10px;
+  padding top: 10px;
+  }
+  /*azzaro immagine*/
+  .bottle{
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    height: 600px;
+    width: 800px;
+  }
+
+  /*amour*/
+
+  .amour-container {
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-right: 70px;
+  }
+   .-amour-40px {
+    font-family:'Gantari', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: -65px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+  }
+  .the-amour-Gantari-20px{
+    font-family:'Gantari', sans-serif;
+    font-size: 20px;
+    padding-left: 1px;
+    padding-right: 10px;
+    padding top: 100px;
+
+  }
+  .surname_amour {
+    margin-left: : 0;
+    letter-spacing: 0;
+    position: flex;
+    top: 0;
+    width: 500px;
+
+  }
+  /*amorino immagine*/
+  .illu{
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    height: 600px;
+    width: 800px;
+  }
+/*quarto testo moliceiro*/
+
+  .moli-container {
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-right: 70px;
+  }
+   .-moli-40px {
+     font-family:'Gantari', sans-serif;
+     font-size: 40px;
+     padding-top: 20px;
+     padding-left: -65px;
+     padding-right: 60px;
+     padding-bottom: 5px;
+  }
+  .the-moli-moli-20px{
+    font-family:'Gantari', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding top: 100px;
+
+  }
+  /*moli immagine*/
+  .us{
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    height: 600px;
+    width: 800px;
+  }
+  /*quinto testo canna da pesca*/
+
+    .rod-container {
+      margin-left: 1px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding-right: 70px;
+    }
+     .-rod-40px {
+       font-family:'Gantari', sans-serif;
+       font-size: 40px;
+       padding-top: 20px;
+       padding-left: -65px;
+       padding-right: 60px;
+       padding-bottom: 5px;
+    }
+    .the-rod-rod-20px{
+      font-family:'Gantari', sans-serif;
+      font-size: 20px;
+      padding-left: 5px;
+      padding-right: 10px;
+      padding top: 100px;
+
+    }
+    /*sezio immagine*/
+    .sezio{
+      align-self: center;
+      padding-top: 50px;
+      padding-bottom: 10px;
+      height: 600px;
+      width: 800px;
+    }
+    /*story immagine*/
+    .story{
+      align-self: center;
+      padding-top: 50px;
+      padding-bottom: 10px;
+      height: 600px;
+      width: 800px;
+    }
+    .img-container {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+      padding-left: 14px;
+
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .lampa1{
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+    .lampa2{
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+    .lampa3{
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
